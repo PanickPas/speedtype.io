@@ -1,5 +1,5 @@
 import * as config from './config.js';
-import * as fonction from './function.js';
+import * as fonction from './fonction.js';
 
 // Maintenant, vous pouvez utiliser ces fonctions dans votre fichier principal.
 // Par exemple, vous pouvez appeler functions.startGame() au lieu de startGame().
