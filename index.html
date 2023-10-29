@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Jeu</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="module" src="config.js" defer></script>
+    <script type="module" src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="contenu">
+        <section class="block1">
+            <div class="title-container">
+                <div class="title">SpeedType</div>
+            </div>
+        </section>
+        <section class="block2">
+            <div class="soustitle">
+                Testez votre vitesse de frappe dans ce jeu en ligne.
+            </div>
+        </section>
+        <section class="bouton">
+            <button class="mots">
+                Mots
+            </button>
+            <button class="phrases">
+                Phrases
+            </button>
+        </section>
+        <section class="text" id="text">
+            <div id="instruction">
+                Choisissez entre "Mots" et "Phrases" pour commencer.
+            </div>
+        </section>
+
+        <section class="zone">
+            <input type="text" class="zonetext" id="zonetext" name="zonetext" placeholder="Écrivez ici...">
+        </section>
+        <section>
+            <div id="timer"></div>
+            <div id="score" class="score">
+                Score: 0
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        @Copyleft : Nathan.D 
+    </footer>
+
+</body>
+</html>
